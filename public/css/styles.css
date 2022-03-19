@@ -1,0 +1,468 @@
+html {
+    box-sizing: border-box;
+    font-family: "Kamerik105W00-Bold"; 
+    src: url("//db.onlinewebfonts.com/t/15db490066f3892032387f14ef589970.eot");
+    src: url("//db.onlinewebfonts.com/t/15db490066f3892032387f14ef589970.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/15db490066f3892032387f14ef589970.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/15db490066f3892032387f14ef589970.woff") format("woff"), url("//db.onlinewebfonts.com/t/15db490066f3892032387f14ef589970.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/15db490066f3892032387f14ef589970.svg#Kamerik105W00-Bold") format("svg");
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    justify-content: space-around;
+    position: fixed ;
+    left: 0 ;
+    top: 0 ;
+    z-index: 1 ;
+    background-color: rgba(255, 255, 255, .96);
+    width: 100%;
+    padding: 0;
+}
+
+#contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligas{
+    display: block;
+    padding: 3rem 1rem;
+    color: #6d7b93;
+    filter: none;
+}
+
+.botonMorado{
+    background-color: #2747c5;
+    color: #fafafa;
+    padding: 1.5rem 4rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.logo{
+    display: block;
+    padding: 2rem 5rem;
+    color: #2747c5;
+}
+
+.logo h2{
+    margin-top: .8rem;
+    font-size: 2rem;
+}
+
+header a{
+    font-size: 1.125rem;
+    margin: 2rem;
+}
+
+article{
+    margin: 10rem 1.5rem 0 1.5rem;
+}
+
+.primeraParte,
+.preparaciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeraParte img,
+.preparaciones img,
+.contenedor3 img{
+    width: 48%;
+}
+
+.info,
+.contenedor2{
+    display: block;
+    width: 40rem;
+}
+
+.info h1,
+.contenedor2 h3{
+    font-size: 2.5rem;
+    width: 37.5rem;
+    color: #1f3e72;
+}
+
+.info p,
+.contenedorDato p,
+.contenedor2 p{
+    color: #6d7b93;
+    font-size: 1.25rem;
+    line-height: 2;
+    width: 40rem;
+}
+
+@media (min-width: 1440px){
+    #contenedorTitulo h2{
+        font-size: 2rem;
+        margin-top: 6rem;
+    }
+
+    .info h1,
+    .contenedor2 h3{
+        font-size: 3.5rem;
+    }
+
+    .info p{
+        font-size: 2rem;
+    }
+
+    .contenedor2 p{
+        font-size: 1.25rem;
+    }
+
+    .info,
+    .contenedor2{
+        width: 55rem;
+    }
+}
+
+.datosVentajas{
+    display: flex;
+}
+
+.contenedorVentaja{
+    display: flex;
+    width: 22rem;
+    margin: 2rem 0 10rem 0;
+}
+
+.contenedorVentaja p{
+    font-size: 1.2rem;
+    color: #1f3e72;
+}
+
+.contenedorVentaja i{
+    background-color: #fffbea;
+    color: #ffd012;
+    font-size: 1.2rem;
+    padding: 1.125rem;
+    width: 3.425rem;
+    height: 3.425rem;
+    border-radius: .5rem;
+    margin-top: .75rem;
+    margin-right: 2rem;
+}
+
+#contenedorTitulo{
+    display: flex;
+}
+
+#contenedorTitulo h2{
+    font-size: 2rem;
+    margin-top: 1.25rem;
+}
+
+#contenedorTitulo i,
+.contenedorContacto .titulo i{
+    background-color: #e8eeff;
+    color: #2a4ac8;
+    font-size: 1.5rem;
+    padding: 1.25rem;
+    width: 3.85rem;
+    height: 3.85rem;
+    border-radius: .5rem;
+    margin: 0 1.5rem;
+}
+
+.agenda{
+    display: flex;
+    background-color: rgba(255, 255, 255, .96);
+    margin-top: 2rem;
+    margin-left: 10rem;
+    width: 70rem;
+    padding: 2rem;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.contenedorAgenda p,
+.contenedorDato p{
+    font-size: 1.2rem;
+    color: #6d7b93;
+}
+
+.contenedorTitulo{
+    display: flex;
+}
+
+.contenedorTitulo i,
+.contenedorRetraible i{
+    background-color: #e8eeff;
+    color: #2a4ac8;
+    font-size: .75rem;
+    padding: .625rem;
+    width: 1.925rem;
+    height: 1.925rem;
+    border-radius: .5rem;
+    margin: 0 1.5rem 0 -3.5rem;
+}
+
+.contenedorTitulo p{
+    margin: .5rem 0 2rem 0;
+}
+
+.contenedorAgenda span{
+    font-size: 2rem;
+}
+
+.contenedorBoton{
+    margin: auto 0;
+}
+
+.logos{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: grayscale(98%);
+}
+
+.logos img{
+    filter: saturate(800%);
+}
+
+.logos img:nth-child(even){
+    width: 10rem;
+    height: 2.25rem;
+    margin:auto;
+}
+
+.logos img:first-child{
+    width: 40rem;
+}
+
+.logos img:nth-child(odd){
+    width: 15rem;
+    display: block;
+}
+
+.contenedorDato{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorDato h3{
+    font-size: 3rem;
+    color: #1f3e72;
+}
+
+.ventajaVacunas{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ventajaVacunas .contenedorInfo{
+    width: 30rem;
+    padding: 2rem;
+    height: 30rem;
+    border: .25rem solid #f5f5f5;
+    margin: 2rem;
+    border-radius: .75rem;
+    padding-top: 5rem;
+}
+
+.contenedorInfo i{
+    background-color: #e8eeff;
+    color: #2a4ac8;
+    font-size: 2.25rem;
+    padding: 1.875rem;
+    width: 5.775rem;
+    height: 5.775rem;
+    border-radius: 1.5rem;
+}
+
+.contenedorInfo h3{
+    margin: 4rem 0;
+    font-size: 2rem;
+    color: #1f3e72;
+}
+
+.contenedorInfo p{
+    color: #6d7b93;
+    font-size: 1.25rem;
+}
+
+.contenedorRetraible{
+    margin: 1rem 1.5rem;
+    padding: .5rem 1rem;
+    display: flex;
+}
+
+.contenedorRetraible p{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorDesplegado{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1.5rem;
+    padding: .5rem 1rem;
+}
+
+.contenedorDesplegado .contenedorRetraible{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorDesplegado .dato p{
+    width: 30rem;
+}
+
+@media (max-width: 1400px){
+    .preparaciones img{
+        width: 47.5%;
+        height: 50rem;
+    }
+
+    .contenedorInfo h3{
+        font-size: 1.25rem;
+    }
+
+    .preparaciones p, .contenedorInfo p{
+        font-size: 1rem;
+    }
+}
+
+.contenedor3, .contactos{
+    display: flex;
+}
+
+.contactoEmergencia{
+    margin-top: 20rem;
+}
+
+.contactos{
+    margin-top: 15rem;
+    max-width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+aside .contenedor2{
+    margin-top: -20rem;
+}
+
+.contenedorContacto{
+    display: block;
+    padding: 2rem 1.125rem;
+    margin: .75rem;
+    border: .25rem solid #f5f5f5;
+    border-radius: .75rem;
+}
+
+.contenedor3 aside{
+    display: block;
+}
+
+.contenedorContacto .titulo{
+    display: flex;
+}
+
+.subcontenedor1{
+    color: #6d7b93;
+}
+
+.subcontenedor1 h4{
+    font-size: 1.25rem;
+    padding: 0;
+    margin: .5rem 0 0 0;
+}
+
+.subcontenedor1 p{
+    font-size: .75rem;
+}
+
+.contenedorContacto button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    width: 15rem;
+}
+
+.botonClaro{
+    background-color: #e8eeff;
+    border-radius: .5rem;
+    border: none;
+}
+
+footer{
+    background-color: #e8eeff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.superior{
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorAcercaSitio{
+    width: 15rem;
+}
+
+.contenedorAcercaSitio h3{
+    color: #2a4ac8;
+    font-size: 1.75rem;
+}
+
+.contenedorAcercaSitio p{
+    width: 10rem;
+    color: #6d7b93;
+}
+
+.superior .ligas{
+    margin-top: 0;
+    padding-top: .25rem;
+    display: flex;
+}
+
+.superior .ligas h5{
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1.5rem 0;
+    color: #292929;
+}
+
+.contenedorLigas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.contenedorLigas a{
+    margin: .5rem 0;
+}
+
+.inferior{
+    color: #6d7b93;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+
+.inferior .ligas2 a{
+    padding: 0 1rem;
+}
